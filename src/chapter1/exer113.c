@@ -1,10 +1,11 @@
 #include <stdio.h>
 
+#define MAX 100
+
 void render(int[], int, char, char);
 void copy(int, int[], int[]);
 
 int main(void) {
-    const int MAX = 100;
     int histogram[MAX];
     int ch;
     int lastCh = 0;
