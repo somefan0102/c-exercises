@@ -1,42 +1,78 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-const char tableType = 'c';
-const int range[] = {300, 0, 20};
-int i, result;
+#define MAX 100
 
-void iteration(void);
+void iteration(int temp, char symbol);
+void getString(char[], int);
 
 int main(void) {
-    if (tableType == 'c') {
-        printf("Cels\tFahr\n");
-    } else if (tableType == 'f') {
-        printf("Fahr\tCels\n");
-    } else {
+    int i, tableType;
+    int range[3];
+    char messages[3][MAX] = {"Minimum range: ", "Maximum range: ", "Count by: "};
+    char string[MAX];
+
+    printf("[C/c]elsius or [F/f]ahrenheit: ");
+    tableType = getchar();
+    while (getchar() != '\n');
+
+    if (tableType != 'c' && tableType != 'C' && tableType != 'f' && tableType != 'F') {
+        printf("%c is not a valid table type.\n", tableType);
         return -1;
+    }
+
+    for (int j = 0; j <= 2; j++) {
+        printf(messages[j]);
+        getString(string, MAX);
+        range[j] = atoi(string);
+    }
+
+    if (tableType == 'c' || tableType == 'C') {
+        printf("Cels\tFahr\n");
+    } else if (tableType == 'f' || tableType == 'F') {
+        printf("Fahr\tCels\n");
     }
 
     printf("----\t----\n");
 
+    if (range[2] == 0) {
+        printf("Third integer of range cannot be %i.\n", range[2]);
+        return -1;
+    }
+
     if (range[0] > range[1]) {
         for (i = range[0]; i >= range[1]; i -= range[2]) {
-            iteration();
+            iteration(i, tableType);
         }
     } else {
         for (i = range[0]; i <= range[1]; i += range[2]) {
-            iteration();
+            iteration(i, tableType);
         }
     }
     return 0;
 }
 
-void iteration(void) {
-    if (tableType == 'c') {
-        result = 9 * i / 5 + 32;
-    } else if (tableType == 'f') {
-        result = 5 * (i - 32) / 9;
+void iteration(int temp, char symbol) {
+    int result;
+
+    if (symbol == 'c' || symbol == 'C') {
+        result = 9 * temp / 5 + 32;
+    } else if (symbol == 'f' || symbol == 'F') {
+        result = 5 * (temp - 32) / 9;
     }
 
-    printf("%i\t%i\n", i, result);
+    printf("%i\t%i\n", temp, result);
+}
+
+void getString(char string[], int size) {
+    int ch, k;
+
+    k = 0;
+    while ((ch = getchar()) != '\n' || k >= size) {
+        string[k] = ch;
+        k++;
+    }
+    string[k] = '\0';
 }
 
 /*
