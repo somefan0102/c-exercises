@@ -35,22 +35,22 @@ Skipped these first two exercises (101-102), as I don't like broken code in the 
 
 ### Chapter 2
 
-- [`201`](src/chapter1/exer201) RECHECK <<<
-- [`202`](src/chapter1/exer202) RECHECK <<<
-- [`203`](src/chapter1/exer203) RECHECK/TODO <<<
-- [`204`](src/chapter1/exer204) RECHECK
-- [`205`](src/chapter1/exer205) RECHECK
-- [`206`](src/chapter1/exer206) TODO
-- [`207`](src/chapter1/exer207) TODO
-- [`208`](src/chapter1/exer208) TODO
-- [`209`](src/chapter1/exer209) TODO
-- [`210`](src/chapter1/exer210) TODO
+- [`201`](src/chapter2/exer201) RECHECK <<<
+- [`202`](src/chapter2/exer202) RECHECK <<<
+- [`203`](src/chapter2/exer203) RECHECK/TODO <<<
+- [`204`](src/chapter2/exer204) RECHECK
+- [`205`](src/chapter2/exer205) RECHECK
+- [`206`](src/chapter2/exer206) TODO
+- [`207`](src/chapter2/exer207) TODO
+- [`208`](src/chapter2/exer208) TODO
+- [`209`](src/chapter2/exer209) TODO
+- [`210`](src/chapter2/exer210) TODO
 
 ### Chapter 3
 
-- [`301`](src/chapter1/exer301) TODO
-- [`302`](src/chapter1/exer302) TODO
-- [`303`](src/chapter1/exer303) TODO
-- [`304`](src/chapter1/exer304) TODO
-- [`305`](src/chapter1/exer305) TODO
-- [`306`](src/chapter1/exer306) TODO
+- [`301`](src/chapter3/exer301) TODO
+- [`302`](src/chapter3/exer302) TODO
+- [`303`](src/chapter3/exer303) TODO
+- [`304`](src/chapter3/exer304) TODO
+- [`305`](src/chapter3/exer305) TODO
+- [`306`](src/chapter3/exer306) TODO
