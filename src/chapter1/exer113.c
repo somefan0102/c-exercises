@@ -13,7 +13,7 @@ int main(void) {
     char renderType, symbol;
 
     while ((ch = getchar()) != EOF) {
-        if (ch == '\n' || ch == '\t' || ch == ' ') {
+        if (ch == '\n' || ch == ' ') {
             if (lastCh != ' '  || lastCh == ' '  && ch != ' '
              || lastCh != '\t' || lastCh == '\t' && ch != '\t') {
                 histogram[j++] = i;
