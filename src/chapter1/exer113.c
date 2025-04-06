@@ -14,8 +14,7 @@ int main(void) {
 
     while ((ch = getchar()) != EOF) {
         if (ch == '\n' || ch == ' ') {
-            if (lastCh != ' '  || lastCh == ' '  && ch != ' '
-             || lastCh != '\t' || lastCh == '\t' && ch != '\t') {
+            if (lastCh != ' '  || lastCh == ' '  && ch != ' ') {
                 histogram[j++] = i;
                 i = 0;
             }
@@ -34,7 +33,7 @@ int main(void) {
     }
 
     symbol = getchar();
-    if (symbol == '\n' || symbol == '\t' || symbol == ' ') {
+    if (symbol == '\n' || symbol == ' ') {
         printf("Such whitespace characters are not allowed.\n");
         return -1;
     }
