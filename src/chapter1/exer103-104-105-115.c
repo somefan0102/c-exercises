@@ -12,7 +12,7 @@ int main(void) {
     char messages[3][MAX] = {"Minimum range: ", "Maximum range: ", "Count by: "};
     char string[MAX];
 
-    printf("[C/c]elsius or [F/f]ahrenheit: ");
+    printf("[C]elsius or [F]ahrenheit: ");
     tableType = getchar();
     while (getchar() != '\n');
 
