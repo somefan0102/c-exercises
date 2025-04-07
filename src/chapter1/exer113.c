@@ -3,7 +3,6 @@
 #define MAX 100
 
 void render(int[], int, char, char);
-void copy(int, int[], int[]);
 
 int main(void) {
     int histogram[MAX];
@@ -43,12 +42,6 @@ int main(void) {
     return 0;
 }
 
-void copy(int size, int from[], int to[]) {
-    for (int m = 0; m < size; m++) {
-        to[m] = from[m];
-    }
-}
-
 void render(int histogram[], int size, char type, char symbol) {
     if (type == 'h' || type == 'H') {
         for (int k = 0; k < size; k++) {
@@ -62,7 +55,9 @@ void render(int histogram[], int size, char type, char symbol) {
         int verticalHistogram[size];
         int longest = -1;
 
-        copy(size, histogram, verticalHistogram);
+        for (int m = 0; m < size; m++) {
+            verticalHistogram[m] = histogram[m];
+        }
 
         for (int k = 0; k < size; k++) {
             if (verticalHistogram[k] > longest) {
