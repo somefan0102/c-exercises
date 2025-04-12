@@ -9,8 +9,8 @@ int main(void) {
     int i;
 
     while (true) {
-        i = 0;
-        while((line[i] = getchar()) != '\n' && line[i++] != EOF);
+        for (i = 0; (line[i] = getchar()) != '\n' && line[i] != EOF; i++);
+
         if (line[i-1] == EOF) {
             break;
         }
