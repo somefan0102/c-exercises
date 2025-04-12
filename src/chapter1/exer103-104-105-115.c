@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define MAX 100
+#define SIZE 100
 
 void iteration(int temp, char symbol);
 void getString(char[], int);
@@ -9,8 +9,8 @@ void getString(char[], int);
 int main(void) {
     int i, tableType;
     int range[3];
-    char messages[3][MAX] = {"Minimum range: ", "Maximum range: ", "Count by: "};
-    char string[MAX];
+    char messages[3][SIZE] = {"Minimum range: ", "Maximum range: ", "Count by: "};
+    char string[SIZE];
 
     printf("[C]elsius or [F]ahrenheit: ");
     tableType = getchar();
@@ -23,7 +23,7 @@ int main(void) {
 
     for (int j = 0; j <= 2; j++) {
         printf(messages[j]);
-        getString(string, MAX);
+        getString(string, SIZE);
         range[j] = atoi(string);
     }
 
