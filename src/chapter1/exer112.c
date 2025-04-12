@@ -7,7 +7,7 @@ int main(void) {
     while ((ch = getchar()) != EOF) {
         if (ch == ' ' && lastCh != ' ') {
             putchar('\n');
-        } else if (!(lastCh == ' ' && ch == ' ')) {
+        } else if (lastCh != ' ' || ch != ' ') {
             putchar(ch);
         }
         lastCh = ch;
