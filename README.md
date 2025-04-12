@@ -2,7 +2,7 @@
 
 **c-exercises** is a personal repository to document my attempts on the exercises from the ANSI C Programming Book.
 
-While still having _adequetely_ predictable behavior, do note that these attempts are not cumulative; they may be altered happily to fit my coding style and preference.
+While still having _adequetely_ predictable behavior, do note that these attempts are not cumulative; they may be altered to fit my coding style and preference, at least for my experience as a beginner.
 
 ## Index
 
