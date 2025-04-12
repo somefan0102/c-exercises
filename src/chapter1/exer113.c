@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-#define MAX 100
+#define SIZE 100
 
 void render(int[], int, char, char);
 
 int main(void) {
-    int histogram[MAX];
+    int histogram[SIZE];
     int ch;
     int lastCh = 0;
     int i = 0;
