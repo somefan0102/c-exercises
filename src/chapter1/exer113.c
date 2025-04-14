@@ -14,7 +14,7 @@ int main(void) {
 
     while ((ch = getchar()) != EOF) {
         if (ch == '\n' || ch == ' ') {
-            if (lastCh != ' '  || lastCh == ' '  && ch != ' ') {
+            if (lastCh != ' '  || (lastCh == ' '  && ch != ' ')) {
                 histogram[j++] = i;
                 i = 0;
             }
@@ -39,6 +39,7 @@ int main(void) {
     }
 
     render(histogram, j, renderType, symbol);
+    
     return 0;
 }
 

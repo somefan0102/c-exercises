@@ -5,7 +5,7 @@ int main(void) {
     int lastCh = 0;
     
     while ((ch = getchar()) != EOF) {
-        if (lastCh != ' ' || lastCh == ' ' && ch != ' ') {
+        if (lastCh != ' ' || (lastCh == ' ' && ch != ' ')) {
             putchar(ch);
         }
         lastCh = ch;
