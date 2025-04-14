@@ -13,9 +13,7 @@ int main(void) {
             whitespaceChars[i++] = ch;
         } else if ((lastCh == ' ' || lastCh == '\t') && ch != '\n') {
             whitespaceChars[i] = '\0';
-            for (int j = 0; whitespaceChars[j] != '\0'; j++) {
-                putchar(whitespaceChars[j]);
-            }
+            puts(whitespaceChars);
             i = 0;
             whitespaceChars[i] = '\0';
             putchar(ch);
@@ -35,6 +33,8 @@ int main(void) {
         }
         lastCh = ch;
     }
+
+    return 0;
 }
 
 /*

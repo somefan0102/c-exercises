@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define SIZE 100
+#define SIZE 200
 
 void reverse(char[]);
 
@@ -13,15 +13,15 @@ int main(void) {
         if (ch == '\n') {
             line[i] = '\0';
             reverse(line);
-            for (int j = 0; line[j] != '\0'; j++) {
-                putchar(line[j]);
-            }
+            puts(line);
             i = 0;
         } else {
             line[i] = ch;
             i++;
         }
     }
+
+    return 0;
 }
 
 void reverse(char line[]) {
