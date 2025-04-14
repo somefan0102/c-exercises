@@ -1,7 +1,6 @@
-// RECHECK
 #include <stdio.h>
 
-#define TABSIZE 7
+#define TABSIZE 8
 
 // int printGuide(int);
 
@@ -11,7 +10,7 @@ int main(void) {
 
     while ((ch = getchar()) != EOF) {
         if (ch == '\t') {
-            while (spacesLeft >= 0) {
+            while (spacesLeft >= 1) {
                 putchar(' ');
                 spacesLeft--;
             }
@@ -20,7 +19,7 @@ int main(void) {
             spacesLeft--;
         }
     
-        if (ch == '\t' && spacesLeft < 0 || (ch != '\t' && ch != '\n') && spacesLeft < 0 || ch == '\n') {
+        if ((ch == '\t' && spacesLeft < 1) || (ch != '\t' && ch != '\n') && spacesLeft < 1 || ch == '\n') {
             spacesLeft = TABSIZE;
         }
     }

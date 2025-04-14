@@ -1,3 +1,5 @@
+// CAN'T ESCAPE
+// INT STUFF
 #include <stdio.h>
 #include <stdbool.h>
 
@@ -5,7 +7,7 @@
 #define MAX 80
 
 int main(void) {
-    char line[SIZE];
+    int line[SIZE];
     int i;
 
     while (true) {
@@ -18,10 +20,7 @@ int main(void) {
         line[i] = '\0';
 
         if (i > MAX) {
-            for (int j = 0; line[j] != '\0'; j++) {
-                putchar(line[j]);
-            }
-            putchar('\n');
+            puts(line);
         }
     }
 
