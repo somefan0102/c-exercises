@@ -28,16 +28,16 @@ Skipped these first two exercises (101-102), as I don't like broken code in the 
 - [`118`](src/chapter1/exer118.c)
 - [`119`](src/chapter1/exer119.c)
 - [`120`](src/chapter1/exer120.c)
-- [`121`](src/chapter1/exer121.c) RECHECK/TODO
-- [`122`](src/chapter1/exer122.c) TODO
-- [`123`](src/chapter1/exer123.c) TODO
+- [`121`](src/chapter1/exer121.c)
+- [`122`](src/chapter1/exer122.c)
+- [`123`](src/chapter1/exer123.c)
 - [`124`](src/chapter1/exer124.c) TODO
 
 ### Chapter 2
 
-- [`201`](src/chapter2/exer201) RECHECK <<<
-- [`202`](src/chapter2/exer202) RECHECK <<<
-- [`203`](src/chapter2/exer203) RECHECK/TODO <<<
+- [`201`](src/chapter2/exer201) RECHECK
+- [`202`](src/chapter2/exer202) RECHECK
+- [`203`](src/chapter2/exer203) RECHECK/TODO
 - [`204`](src/chapter2/exer204) RECHECK
 - [`205`](src/chapter2/exer205) RECHECK
 - [`206`](src/chapter2/exer206) TODO
