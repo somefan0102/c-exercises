@@ -8,49 +8,43 @@ While still having _adequetely_ predictable behavior, do note that these attempt
 
 Skipped these first two exercises (101-102), as I don't like broken code in the repository.
 
-### Chapter 1
+[`103`](src/chapter1/exer103-104-105-115.c)
+[`104`](src/chapter1/exer103-104-105-115.c)
+[`105`](src/chapter1/exer103-104-105-115.c)
+[`106`](src/chapter1/exer106-107.c)
+[`107`](src/chapter1/exer106-107.c)
+[`108`](src/chapter1/exer108.c)
+[`109`](src/chapter1/exer109.c)
+[`110`](src/chapter1/exer110.c)
+[`111`](src/chapter1/exer111.c)
+[`112`](src/chapter1/exer112.c)
+[`113`](src/chapter1/exer113.c)
+[`114`](src/chapter1/exer114.c)
+[`115`](src/chapter1/exer103-104-105-115.c)
+`116`
+[`117`](src/chapter1/exer117.c)
+[`118`](src/chapter1/exer118.c) 
+[`119`](src/chapter1/exer119.c)
+[`120`](src/chapter1/exer120.c)
+[`121`](src/chapter1/exer121.c)
+[`122`](src/chapter1/exer122.c)
+[`123`](src/chapter1/exer123.c)
+`124`
 
-- [`103`](src/chapter1/exer103-104-105-115.c)
-- [`104`](src/chapter1/exer103-104-105-115.c)
-- [`105`](src/chapter1/exer103-104-105-115.c)
-- [`106`](src/chapter1/exer106-107.c)
-- [`107`](src/chapter1/exer106-107.c)
-- [`108`](src/chapter1/exer108.c)
-- [`109`](src/chapter1/exer109.c)
-- [`110`](src/chapter1/exer110.c)
-- [`111`](src/chapter1/exer111.c)
-- [`112`](src/chapter1/exer112.c)
-- [`113`](src/chapter1/exer113.c)
-- [`114`](src/chapter1/exer114.c)
-- [`115`](src/chapter1/exer103-104-105-115.c)
-- [`116`](src/chapter1/exer116.c) TODO
-- [`117`](src/chapter1/exer117.c)
-- [`118`](src/chapter1/exer118.c)
-- [`119`](src/chapter1/exer119.c)
-- [`120`](src/chapter1/exer120.c)
-- [`121`](src/chapter1/exer121.c)
-- [`122`](src/chapter1/exer122.c)
-- [`123`](src/chapter1/exer123.c)
-- [`124`](src/chapter1/exer124.c) TODO
+[`201`](src/chapter1/exer201.c)
+`202`
+`203`
+`204`
+`205`
+`206`
+`207`
+`208` 
+`209`
+`210`
 
-### Chapter 2
-
-- [`201`](src/chapter2/exer201) RECHECK
-- [`202`](src/chapter2/exer202) RECHECK
-- [`203`](src/chapter2/exer203) RECHECK/TODO
-- [`204`](src/chapter2/exer204) RECHECK
-- [`205`](src/chapter2/exer205) RECHECK
-- [`206`](src/chapter2/exer206) TODO
-- [`207`](src/chapter2/exer207) TODO
-- [`208`](src/chapter2/exer208) TODO
-- [`209`](src/chapter2/exer209) TODO
-- [`210`](src/chapter2/exer210) TODO
-
-### Chapter 3
-
-- [`301`](src/chapter3/exer301) TODO
-- [`302`](src/chapter3/exer302) TODO
-- [`303`](src/chapter3/exer303) TODO
-- [`304`](src/chapter3/exer304) TODO
-- [`305`](src/chapter3/exer305) TODO
-- [`306`](src/chapter3/exer306) TODO
+`301`
+`302`
+`303`
+`304`
+`305`
+`306`
