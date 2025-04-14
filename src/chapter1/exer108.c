@@ -12,15 +12,12 @@ int main(void) {
             case ' ':
                 nBlanks++;
                 break;
-            
             case '\t':
                 nTabs++;
                 break;
-            
             case '\n':
                 nLines++;
                 break;
-            
             default:
                 break;
         }
