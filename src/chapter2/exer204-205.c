@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 void squeeze(char[], char[]);
+int any(char[], char[]);
 
 int main(void) {
     char string1[] = "Hello, world!";
@@ -11,7 +12,9 @@ int main(void) {
     squeeze(string2, "Cce!");
     squeeze(string3, "aeiou");
 
-    printf("%s\n%s\n%s", string1, string2, string3);
+    printf("%s\n%s\n%s\n", string1, string2, string3);
+    printf("%i", any("I will forbid from using that 101st ASCII symbol in this string... hopefully.", "e"));
+    
     return 0;
 }
 
@@ -26,6 +29,17 @@ void squeeze(char string1[], char string2[]) {
         }
         string1[j] = '\0';
     }
+}
+
+int any(char string1[], char string2[]) {
+    for (int i = 0; string1[i] != '\0'; i++) {
+        for (int j = 0; string2[j] != '\0'; j++) {
+            if (string1[i] == string2[j]) {
+                return i;
+            }
+        }
+    }
+    return -1;
 }
 
 /*
