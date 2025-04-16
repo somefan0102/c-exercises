@@ -31,16 +31,16 @@ Skipped these first two exercises (101-102), as I don't like broken code in the 
 [`123`](src/chapter1/exer123.c)
 `124`
 
-[`201`](src/chapter1/exer201.c)
-`202`
-`203`
-`204`
-`205`
-`206`
-`207`
-`208` 
-`209`
-`210`
+[`201`](src/chapter2/exer201.c)
+[`202`](src/chapter2/exer202.c)
+[`203`](src/chapter2/exer203.c)
+[`204`](src/chapter2/exer204-205.c)
+[`205`](src/chapter2/exer204-205.c)
+[`206`](src/chapter2/exer206-207-208-209.c)
+[`207`](src/chapter2/exer206-207-208-209.c)
+[`208`](src/chapter2/exer206-207-208-209.c)
+[`209`](src/chapter2/exer206-207-208-209.c)
+[`210`](src/chapter2/exer210.c)
 
 `301`
 `302`
