@@ -6,11 +6,12 @@ int betterbinsearch(int, int[], int);
 
 int main(void) {
     clock_t time;
+
     double takens[2];
     double result;
 
     int arr[] = {-48, -17, -10, -4, -3, 0, 2, 5, 6, 7, 8, 13, 14, 24, 32, 42, 64, 66, 69, 81, 99, 101};
-    int size = sizeof(arr)/4;
+    int size = sizeof(arr)/sizeof(int);
 
     printf("Using regular binary search.\n");
     time = clock();
@@ -65,10 +66,9 @@ int binsearch(int x, int arr[], int size) {
 }
 
 int betterbinsearch(int x, int arr[], int size) {
-    int low, mid, high;
-
-    low = 0;
-    high = size;
+    int low = 0;
+    int mid;
+    int high = size;
 
     do {
         mid = (low + high) / 2;
