@@ -66,13 +66,13 @@ void betteritoa(int n, char s[]) {
     /*
         For portability and considering the absolute value of minimum of type n is bigger than the max,
         using arithmetic with negative numbers instead of positive numbers may solve this,
-        but this may be a rather unique approach...
+        which solves both for two's complement and one's complement, but this may be a rather unique approach...
     */
 
     int i = 0;
     int sign = 1;
 
-    if (n > 0) {
+    if (n >= 0) {
         n = -n;
         sign = 0;
     }
