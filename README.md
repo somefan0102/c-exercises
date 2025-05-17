@@ -42,9 +42,9 @@ Skipped these first two exercises (101-102), as I don't like broken code in the 
 [`209`](src/chapter2/exer206-207-208-209.c)
 [`210`](src/chapter2/exer210.c)
 
-`301`
-`302`
-`303`
-`304`
+[`301`](src/chapter3/exer301.c)
+[`302`](src/chapter3/exer302.c)
+[`303`](src/chapter3/exer303.c)
+[`304`](src/chapter3/exer304c)
 `305`
 `306`
