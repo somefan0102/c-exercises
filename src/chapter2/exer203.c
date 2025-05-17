@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <math.h>
-#include <string.h>
 
 #define SIZE 200
 
+int strlen(char s[]);
 int htoi(char[]);
 
 int main(void) {
@@ -16,6 +16,12 @@ int main(void) {
     printf("%i", htoi(line));
     
     return 0;
+}
+
+int strlen(char s[]) {
+    int i;
+    for (i = 0; s[i] != '\0'; i++);
+    return i;
 }
 
 int htoi(char string[]) {
