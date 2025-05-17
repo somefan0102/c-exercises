@@ -4,6 +4,8 @@
 
 While still having _adequetely_ predictable behavior, do note that these attempts are not cumulative; they may be altered to fit my coding style and preference, at least for my experience as a beginner.
 
+All programs are written in C99.
+
 ## Index
 
 Skipped these first two exercises (101-102), as I don't like broken code in the repository.

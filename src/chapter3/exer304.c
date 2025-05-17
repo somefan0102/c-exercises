@@ -65,7 +65,8 @@ void itoa(int n, char s[]) {
 void betteritoa(int n, char s[]) {
     /*
         For portability and considering the absolute value of minimum of type n is bigger than the max,
-        using arithmetic with negative numbers instead of positive numbers may solve this, but this may be a rather unique approach...
+        using arithmetic with negative numbers instead of positive numbers may solve this,
+        but this may be a rather unique approach...
     */
 
     int i = 0;
