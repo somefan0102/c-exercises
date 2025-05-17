@@ -47,6 +47,6 @@ Skipped these first two exercises (101-102), as I don't like broken code in the 
 [`301`](src/chapter3/exer301.c)
 [`302`](src/chapter3/exer302.c)
 [`303`](src/chapter3/exer303.c)
-[`304`](src/chapter3/exer304c)
-`305`
-`306`
+[`304`](src/chapter3/exer304.c)
+[`305`](src/chapter3/exer305.c)
+[`306`](src/chapter3/exer306.c)
