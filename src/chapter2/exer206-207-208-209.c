@@ -10,7 +10,6 @@ unsigned int setbits(unsigned int, int, int, unsigned int);
 unsigned int invert(unsigned int, int, int);
 unsigned int rightrot(unsigned int, int);
 
-
 int main(void) {
     int x = 12;
 

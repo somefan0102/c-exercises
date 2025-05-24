@@ -7,7 +7,7 @@ void itoa(int n, char s[], int w);
 int main(void) {
     char x[100];
     itoa(42, x, 5);
-    printf("%s", x);
+    printf("%s\n", x);
     return 0;
 }
 
@@ -55,6 +55,7 @@ void itoa(int n, char s[], int w) {
     s[i] = '\0';
     reverse(s);
 }
+
 /*
 306: Write a version of itoa that accepts three arguments instead of two. The third
      argument is a minimum field width; the converted number must be padded with blanks on the

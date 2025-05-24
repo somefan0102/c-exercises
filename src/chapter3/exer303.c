@@ -11,7 +11,7 @@ int main(void) {
     char line[SIZE];
     int i = 0;
 
-    while (i < SIZE && ((line[i++] = getchar()) != '\n') && line[i] != EOF);
+    while (i < SIZE && ((line[i++] = getchar()) != '\n'));
     line[i-1] = '\0';
 
     expand(line, result);
