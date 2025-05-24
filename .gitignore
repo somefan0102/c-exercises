@@ -1,4 +1,6 @@
-/src/lab/
-/bin/
+.vscode/
+lab/
+bin/
 *.exe
+*.o
 *.pdf
