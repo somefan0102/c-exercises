@@ -1,30 +1,24 @@
-// CAN'T ESCAPE
-// INT STUFF
 #include <stdio.h>
-#include <stdbool.h>
 
-#define SIZE 200
+#define MAXLINE 1000
 #define MAX 80
 
 int main(void) {
-    int line[SIZE];
-    int i;
+    char line[MAXLINE];
+    int ch;
+    int i = 0;
 
-    while (true) {
-        for (i = 0; (line[i] = getchar()) != '\n' && line[i] != EOF; i++);
+    while ((ch = getchar()) != EOF) {
+        line[i++] = ch;
 
-        if (line[i-1] == EOF) {
-            break;
-        }
-
-        line[i] = '\0';
-
-        if (i > MAX) {
-            puts(line);
+        if (ch == '\n') {
+            line[i++] = '\0';
+            if (i > MAX) {
+                printf("%s", line);
+            }
+            i = 0;
         }
     }
-
-    return 0;
 }
 
 /*

@@ -1,11 +1,17 @@
 COMPILER = gcc
-OPTIONS = -std=c99 -Wall
-N ?= src/chapter1/exer103-104-105-115.c
+VERSION ?= c99
+OPTIONS  = -std=$(VERSION) -Wall -pedantic
+FILE    ?= 
 
-run:
-	mkdir -p bin
-	$(COMPILER) $(N) -o bin/`basename $(N) .c` $(OPTIONS)
-	./bin/`basename $(N) .c`
+BIN      = bin
+INCLUDE  = include
+MODULES  = $(shell find src/modules -name "*.c")
+
+build:
+	mkdir -p $(BIN)
+	$(COMPILER) $(OPTIONS) -I$(INCLUDE) $(FILE) $(MODULES) -o $(BIN)/`basename $(FILE) .c`
+	
+	# BIN/`basename $(FILE) .c` .exe
 
 clean:
-	rm -r bin
+	rm -r $(BIN)

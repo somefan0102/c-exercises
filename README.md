@@ -1,10 +1,12 @@
 # c-exercises
 
-**c-exercises** is a personal repository to document my attempts on the exercises from the ANSI C Programming Book.
+**c-exercises** is a personal repository to document my attempts on the exercises from _The C Programming Language_ book, ANSI edition.
 
-While still having _adequetely_ predictable behavior, do note that these attempts are not cumulative; they may be altered to fit my coding style and preference, at least for my experience as a beginner.
+While still having _adequetely_ predictable behavior, do note that these attempts are not cumulative and coding styles may change to fit my preference, at least for my experience as a beginner.
 
 All programs are written in C99.
+
+The modules are only used for the exercises in Chapter 4 and beyond.
 
 ## Index
 
@@ -23,7 +25,7 @@ Skipped these first two exercises (101-102), as I don't like broken code in the 
 [`113`](src/chapter1/exer113.c)
 [`114`](src/chapter1/exer114.c)
 [`115`](src/chapter1/exer103-104-105-115.c)
-`116`
+[`116`](src/chapter1/exer116.c)
 [`117`](src/chapter1/exer117.c)
 [`118`](src/chapter1/exer118.c) 
 [`119`](src/chapter1/exer119.c)
@@ -50,3 +52,18 @@ Skipped these first two exercises (101-102), as I don't like broken code in the 
 [`304`](src/chapter3/exer304.c)
 [`305`](src/chapter3/exer305.c)
 [`306`](src/chapter3/exer306.c)
+
+[`401`](src/chapter4/exer401.c)
+[`402`](src/chapter4/exer402.c)
+[`403`](src/chapter4/exer403-404-405-406-410-411.c)
+[`404`](src/chapter4/exer403-404-405-406-410-411.c)
+[`405`](src/chapter4/exer403-404-405-406-410-411.c)
+[`406`](src/chapter4/exer403-404-405-406-410-411.c)
+[`407`](src/chapter4/exer407-408-409.c)
+[`408`](src/chapter4/exer407-408-409.c)
+[`409`](src/chapter4/exer407-408-409.c)
+[`410`](src/chapter4/exer403-404-405-406-410-411.c)
+[`411`](src/chapter4/exer403-404-405-406-410-411.c)
+[`412`](src/chapter4/exer412-413-414.c)
+[`413`](src/chapter4/exer412-413-414.c)
+[`414`](src/chapter4/exer412-413-414.c)
