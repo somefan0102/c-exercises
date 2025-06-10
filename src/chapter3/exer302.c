@@ -95,7 +95,7 @@ void descape(char s1[], char s2[]) {
                     s2[j++] = '\r';
                     break;
                 default:
-                    printf("Error at character %d: Invalid escape-letter character.", i);
+                    printf("Error at character %i: Invalid escape-letter character.", i);
                     return;
             }
             i++;

@@ -13,7 +13,7 @@ int main(void) {
     printf("\tBIN\t\t\t\t\t\t\t\t\tOCT\t\tDEC\t\t\t\tHEX\n");
 
     for (int i = MIN; i <= MAX; i++) {
-        printf("%3d =\t", i);
+        printf("%3i =\t", i);
 
         itob(i, result, 2);
         printf("%s\t\t", result);
