@@ -3,7 +3,7 @@
 **c-exercises** is a personal repository to document my beginner attempts on the lanaguage and exercises
 from the second edition of _The C Programming Language_ book, using C99.
 
-While having adequetely predictable behavior, few exercises may not feel cumulative and coding styles
+While having adequately predictable behavior, few exercises may not feel cumulative and coding styles
 may vary to find a grounded preference.
 
 The modules are only used for the exercises in Chapter 4 and beyond.
