@@ -82,7 +82,7 @@ int betterbinsearch(int x, int arr[], int size) {
 
     // I use a do-while loop instead of while loop because the second condition (`x != arr[mid]`)
     // would generate unexpected behavior since `mid` wouldn't be defined until after the condition.
-    // I would just duplicated the `mid = (low + high) / 2` outside the loop, but this is supposed to be optimized.
+    // I would just duplicated the `mid = (low + high) / 2` outside the while loop, but this is supposed to be optimized.
 
     return (x == arr[mid]) ? mid : -1;
 }

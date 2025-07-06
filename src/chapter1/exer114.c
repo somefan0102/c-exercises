@@ -20,7 +20,7 @@ int main(void) {
     if (sortType == 'v' || sortType == 'V') {
         for (int i = 0; i < SCHAR_MAX; i++) {
             if (frequency[i] > 0) {
-                printf("%2c (%03i): %d\n", i, i, frequency[i]);
+                printf("%2c (%03i): %i\n", i, i, frequency[i]);
             }
         }
     } else if (sortType == 'c' || sortType == 'C') {
@@ -39,7 +39,7 @@ int main(void) {
             }
             
             if (frequencyAlt[longest] > 0) {
-                printf("%2c (%03i):%d\n", longest, longest, frequencyAlt[longest]);
+                printf("%2c (%03i):%i\n", longest, longest, frequencyAlt[longest]);
                 frequencyAlt[longest] = 0;
                 longest = 0;
             }
