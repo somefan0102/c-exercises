@@ -1,16 +1,17 @@
 # c-exercises
 
-**c-exercises** is a personal repository to document my attempts on the exercises from _The C Programming Language_ book, ANSI edition.
+**c-exercises** is a personal repository to document my beginner attempts on the lanaguage and exercises
+from the second edition of _The C Programming Language_ book, using C99.
 
-While still having _adequetely_ predictable behavior, do note that these attempts are not cumulative and coding styles may change to fit my preference, at least for my experience as a beginner.
-
-All programs are written in C99.
+While having adequetely predictable behavior, few exercises may not feel cumulative and coding styles
+may vary to find a grounded preference.
 
 The modules are only used for the exercises in Chapter 4 and beyond.
 
 ## Index
 
-Skipped these first two exercises (101-102), as I don't like broken code in the repository.
+Skipped the first two exercises (`101`-`102`), as I don't like actual broken code in the repository.
+`705` was also skipped in spite of `scanf`.
 
 [`103`](src/chapter1/exer103-104-105-115.c)
 [`104`](src/chapter1/exer103-104-105-115.c)
@@ -67,3 +68,40 @@ Skipped these first two exercises (101-102), as I don't like broken code in the 
 [`412`](src/chapter4/exer412-413-414.c)
 [`413`](src/chapter4/exer412-413-414.c)
 [`414`](src/chapter4/exer412-413-414.c)
+
+[`501`](src/chapter5/exer501-502.c)
+[`502`](src/chapter5/exer501-502.c)
+[`503`](src/chapter5/exer503-504-505-506.c)
+[`504`](src/chapter5/exer503-504-505-506.c)
+[`505`](src/chapter5/exer503-504-505-506.c)
+[`506`](src/chapter5/exer503-504-505-506.c)
+`507`
+[`508`](src/chapter5/exer508-509.c)
+[`509`](src/chapter5/exer508-509.c)
+[`510`](src/chapter5/exer510.c)
+[`511`](src/chapter5/exer511-512.c)
+[`512`](src/chapter5/exer511-512.c)
+[`513`](src/chapter5/exer513.c)
+`514`
+`515`
+`516`
+`517`
+[`518`](src/chapter5/exer518-519-520.c)
+[`519`](src/chapter5/exer518-519-520.c)
+[`520`](src/chapter5/exer518-519-520.c)
+
+[`601`](src/chapter6/exer601.c)
+[`602`](src/chapter6/exer602.c)
+[`603`](src/chapter6/exer603.c)
+[`604`](src/chapter6/exer604.c)
+[`605`](src/chapter6/exer605.c)
+[`606`](src/chapter6/exer606.c)
+
+[`701`](src/chapter7/exer701.c)
+[`702`](src/chapter7/exer702.c)
+[`703`](src/chapter7/exer703-704.c)
+[`704`](src/chapter7/exer703-704.c)
+[`706`](src/chapter7/exer706.c)
+[`707`](src/chapter7/exer707.c)
+[`708`](src/chapter7/exer708.c)
+[`709`](src/chapter7/exer709.c)
