@@ -1,13 +1,14 @@
 #include <stdio.h>
+#include <ctype.h>
 
 int main(void) {
     int ch;
     int lastCh = 0;
 
     while ((ch = getchar()) != EOF) {
-        if (ch == ' ' && lastCh != ' ') {
+        if (isspace(ch) && !isspace(lastCh)) {
             putchar('\n');
-        } else if (lastCh != ' ' || ch != ' ') {
+        } else if (isalpha(ch)) {
             putchar(ch);
         }
         lastCh = ch;
