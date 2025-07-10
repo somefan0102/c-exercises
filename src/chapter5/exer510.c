@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "nstring.h"
 
 #define error(option, reason) printf("Error: Invalid operator. (%s)\n", option);\

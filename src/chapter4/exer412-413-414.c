@@ -1,13 +1,17 @@
 #include <stdio.h>
 #include "nstring.h"
 
-#define swap(t,x,y) t temp = y; y = x; x = temp 
+#define swap(t,x,y) {\
+     t temp = y;\
+     y = x;\
+     x = temp;\
+}
 
 void recur_itoa(int n, char s[]);
 void recur_reverse(char s[]);
 
 int main(void) {
-     char str[] = "";
+     char str[] = "Hello, world!";
      char space[100] = "\0";
      int x = -242374;
 

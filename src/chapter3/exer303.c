@@ -47,12 +47,12 @@ void expand(char s1[], char s2[]) {
     } else if (s1[0] == '-') { // Assuming "-x"
         end = s1[1];
     } else {
-        printf("Error expanding \"%s\"\n", s1);
+        printf("Error expanding \"%s\"\n.", s1);
         return;
     }
 
     if (end < start) {
-        printf("Error for character's value of end range is greater than one of start range in \"%s\"\n", s1);
+        printf("Error for character's value of end range is greater than one of start range in \"%s\".\n", s1);
         return;
     }
 

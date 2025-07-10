@@ -21,5 +21,5 @@ int main(void) {
 
 /*
 116: Revise the main routine of the longest-line program so it will correctly print the
-     i of arbitrary long input lines, and as much as possible of the text.
+     `i` of arbitrary long input lines, and as much as possible of the text.
 */

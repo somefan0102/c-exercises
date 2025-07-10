@@ -2,10 +2,11 @@
 #include <stdbool.h>
 
 int main(void) {
-    int ch, lim = 10, string[lim];
+    int i, ch, lim = 10;
+    char s[lim];
 
-    int i = 0;
-    while (true) {
+    i = 0;
+    while  (true) {
         if (i >= lim-1) {
             break;
         }
@@ -15,9 +16,11 @@ int main(void) {
         if (ch == EOF) {
             break;
         }
-        string[i] = ch;
-        i++;
+        s[i++] = ch;
     }
+    s[i] = '\0';
+
+    printf("%s", s);
 
     return 0;
 }

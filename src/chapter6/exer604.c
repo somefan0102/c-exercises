@@ -57,7 +57,6 @@ int main(int argc, char *argv[]) {
         treePrint(root, max);
     }
 
-
     return 0;
 }
 

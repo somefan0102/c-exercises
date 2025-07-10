@@ -10,7 +10,6 @@ int main(void) {
     char result[20];
 
     printf("\tBASE2\t\tBASE3\tBASE4\tBASE5\tBASE6\tBASE7\tBASE8\tBASE9\tBASE10\tBASE11\tBASE12\tBASE13\tBASE14\tBASE15\tBASE16\n");
-    printf("\tBIN\t\t\t\t\t\t\t\t\tOCT\t\tDEC\t\t\t\tHEX\n");
 
     for (int i = MIN; i <= MAX; i++) {
         printf("%3i =\t", i);

@@ -128,7 +128,6 @@ int main(int argc, char *argv[]) {
             significance = DEFAULT_SIG;
         }
     }
-    printf("%i", significance);
 
     getinput(line, MAX_LINE, EOF);
 

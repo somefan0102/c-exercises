@@ -48,8 +48,7 @@ int main(void) {
     // I know how it works, but this is the best explanation, I can give. :/
 
     printf("Init\tOld\tNew\n");
-    for (int i = 0; i < 255; i++)
-    {
+    for (int i = 0; i < 255; i++) {
         printf("0x%x\t0x%x\t0x%x\n", i, bitcount(i), fasterbitcount(i));
     }
     

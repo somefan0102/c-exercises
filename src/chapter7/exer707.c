@@ -4,7 +4,7 @@
 #include <assert.h>
 #include "nstring.h"
 
-#define MAX_BUFFER 0xfff
+#define MAX_BUFFER 0x1000
 #define MAX_MATCHES 200
 // #define DEBUG
 

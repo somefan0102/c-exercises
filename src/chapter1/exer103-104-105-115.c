@@ -3,7 +3,7 @@
 
 #define SIZE 100
 
-void iteration(int temp, char symbol);
+void convert(int temp, char symbol);
 void getString(char[], int);
 
 int main(void) {
@@ -42,17 +42,17 @@ int main(void) {
 
     if (range[0] > range[1]) {
         for (i = range[0]; i >= range[1]; i -= range[2]) {
-            iteration(i, tableType);
+            convert(i, tableType);
         }
     } else {
         for (i = range[0]; i <= range[1]; i += range[2]) {
-            iteration(i, tableType);
+            convert(i, tableType);
         }
     }
     return 0;
 }
 
-void iteration(int temp, char symbol) {
+void convert(int temp, char symbol) {
     int result;
 
     if (symbol == 'c' || symbol == 'C') {

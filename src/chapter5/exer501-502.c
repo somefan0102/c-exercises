@@ -53,7 +53,7 @@ int getint(char str[], int *n) {
     static int i = 0;
     int sign;
 
-    /* I'm not using getch or pushing stuff for 501, I'd rather do this: */
+    // I'm not using getch or pushing stuff for 501, I'd rather do this:
     while (!(isdigit(str[i]) || (issign(str[i]) && isdigit(str[i+1])) || str[i] == '\0')) {
         i++;
     }

@@ -11,7 +11,7 @@ The modules are only used for the exercises in Chapter 4 and beyond.
 ## Index
 
 Skipped the first two exercises (`101`-`102`), as I don't like actual broken code in the repository.
-`705` was also skipped in spite of `scanf`.
+`705` was also skipped in spite of using `scanf`.
 
 [`103`](src/chapter1/exer103-104-105-115.c)
 [`104`](src/chapter1/exer103-104-105-115.c)
@@ -105,3 +105,12 @@ Skipped the first two exercises (`101`-`102`), as I don't like actual broken cod
 [`707`](src/chapter7/exer707.c)
 [`708`](src/chapter7/exer708.c)
 [`709`](src/chapter7/exer709.c)
+
+<!-- [`801`](src/chapter8/exer801.c)
+[`802`](src/chapter8/exer802-803-804.c)
+[`803`](src/chapter8/exer802-803-804.c)
+[`804`](src/chapter8/exer802-803-804.c)
+[`805`](src/chapter8/exer805.c)
+[`806`](src/chapter8/exer806-807-808.c)
+[`807`](src/chapter8/exer806-807-808.c)
+[`808`](src/chapter8/exer806-807-808.c) -->

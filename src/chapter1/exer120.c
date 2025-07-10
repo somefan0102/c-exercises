@@ -19,7 +19,7 @@ int main(void) {
             spacesLeft--;
         }
     
-        if ((ch == '\t' && spacesLeft < 1) || (ch != '\t' && ch != '\n') && spacesLeft < 1 || ch == '\n') {
+        if ((ch == '\t' && spacesLeft < 1) || ((ch != '\t' && ch != '\n') && spacesLeft < 1) || ch == '\n') {
             spacesLeft = TABSIZE;
         }
     }
@@ -48,4 +48,3 @@ int main(void) {
      of blanks to space to the next tab stop. Assume a fixed set of tab stops, say every `n` columns.
      Should `n` be a variable or a symbolic parameter?
 */
-
