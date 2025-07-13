@@ -1,17 +1,23 @@
 # c-exercises
 
-**c-exercises** is a personal repository to document my beginner attempts on the lanaguage and exercises
-from the second edition of _The C Programming Language_ book, using C99.
+**c-exercises** is a repository to document my beginner attempts on C
+and all* the exercises from the second edition of _The C Programming Language_ book, using C99.
 
-While having adequately predictable behavior, few exercises may not feel cumulative and coding styles
-may vary to find a grounded preference.
+While having adequately predictable behavior (on my machine at least), few exercises may not feel cumulative and
+coding styles may vary to find a grounded preference.
 
-The modules are only used for the exercises in Chapter 4 and beyond.
+## Notes
+
+- Header files in `/include/` and extra files in `/src/modules/` are used following Chapter 4.
+    - For the first three chapters, use Makefile recipe `buildraw` instead of the default `build`.
+
+- Chapter 8's file implementations concern Windows, specifically Windows 10; it's not fully portable.
+
+- Only three exercises were skipped:
+    - `101` and `102`: I don't like actual broken code in the repository.
+    - `705`: In spite of using `scanf`.
 
 ## Index
-
-Skipped the first two exercises (`101`-`102`), as I don't like actual broken code in the repository.
-`705` was also skipped in spite of using `scanf`.
 
 [`103`](src/chapter1/exer103-104-105-115.c)
 [`104`](src/chapter1/exer103-104-105-115.c)
@@ -34,7 +40,7 @@ Skipped the first two exercises (`101`-`102`), as I don't like actual broken cod
 [`121`](src/chapter1/exer121.c)
 [`122`](src/chapter1/exer122.c)
 [`123`](src/chapter1/exer123.c)
-`124`
+[`124`](src/chapter1/exer124.c) TODO
 
 [`201`](src/chapter2/exer201.c)
 [`202`](src/chapter2/exer202.c)
@@ -75,17 +81,17 @@ Skipped the first two exercises (`101`-`102`), as I don't like actual broken cod
 [`504`](src/chapter5/exer503-504-505-506.c)
 [`505`](src/chapter5/exer503-504-505-506.c)
 [`506`](src/chapter5/exer503-504-505-506.c)
-`507`
+[`507`](src/chapter5/exer507-514-515-516-517.c) TODO
 [`508`](src/chapter5/exer508-509.c)
 [`509`](src/chapter5/exer508-509.c)
 [`510`](src/chapter5/exer510.c)
 [`511`](src/chapter5/exer511-512.c)
 [`512`](src/chapter5/exer511-512.c)
 [`513`](src/chapter5/exer513.c)
-`514`
-`515`
-`516`
-`517`
+[`514`](src/chapter5/exer507-514-515-516-517.c) TODO
+[`515`](src/chapter5/exer507-514-515-516-517.c) TODO
+[`516`](src/chapter5/exer507-514-515-516-517.c) TODO
+[`517`](src/chapter5/exer507-514-515-516-517.c) TODO
 [`518`](src/chapter5/exer518-519-520.c)
 [`519`](src/chapter5/exer518-519-520.c)
 [`520`](src/chapter5/exer518-519-520.c)
@@ -106,11 +112,11 @@ Skipped the first two exercises (`101`-`102`), as I don't like actual broken cod
 [`708`](src/chapter7/exer708.c)
 [`709`](src/chapter7/exer709.c)
 
-<!-- [`801`](src/chapter8/exer801.c)
-[`802`](src/chapter8/exer802-803-804.c)
-[`803`](src/chapter8/exer802-803-804.c)
-[`804`](src/chapter8/exer802-803-804.c)
+[`801`](src/chapter8/exer801.c)
+[`802`](src/chapter8/exer802-803-804.c) TODO
+[`803`](src/chapter8/exer802-803-804.c) TODO
+[`804`](src/chapter8/exer802-803-804.c) TODO
 [`805`](src/chapter8/exer805.c)
-[`806`](src/chapter8/exer806-807-808.c)
-[`807`](src/chapter8/exer806-807-808.c)
-[`808`](src/chapter8/exer806-807-808.c) -->
+[`806`](src/chapter8/exer806-807-808.c) TODO
+[`807`](src/chapter8/exer806-807-808.c) TODO
+[`808`](src/chapter8/exer806-807-808.c) TODO
